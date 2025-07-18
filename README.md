@@ -1,7 +1,7 @@
-Breast Cancer Classification
+## Breast Cancer Classification
 A deep neural network built and trained in PyTorch for classifying breast cancer tumors into malignant and benign.
 
-Dataset
+## Dataset
 The Breast Cancer Wisconsin (Diagnostic) dataset is used.
 
 569 samples
@@ -12,7 +12,7 @@ The Breast Cancer Wisconsin (Diagnostic) dataset is used.
 
 Goal: classify each tumor into one of the two classes
 
-Model Details
+## Model Details
 Loss Function: CrossEntropyLoss
 
 Optimizer: Adam
@@ -21,7 +21,7 @@ Accuracy: 0.97
 
 F1 Score: 0.98
 
-Steps
+## Steps
 Load data
 
 Data preprocessing (standardization)
@@ -29,3 +29,4 @@ Data preprocessing (standardization)
 Build and train the model
 
 Visualize training and validation loss using matplotlib (epoch vs loss)
+
